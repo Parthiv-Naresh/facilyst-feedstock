@@ -42,16 +42,23 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `facilyst, facilyst-core` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `facilyst` and `facilyst-core` can be installed with `conda`:
 
 ```
-conda install facilyst facilyst-core
+conda install facilyst
+```
+
+```
+conda install facilyst-core
 ```
 
 or with `mamba`:
 
 ```
-mamba install facilyst facilyst-core
+mamba install facilyst
+```
+```
+mamba install facilyst-core
 ```
 
 It is possible to list all of the versions of `facilyst` available on your platform with `conda`:
